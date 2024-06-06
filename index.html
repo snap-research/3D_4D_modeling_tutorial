@@ -62,9 +62,14 @@
     </br>
     <p>In the ever-expanding metaverse, where the physical and digital worlds seamlessly merge, the need to capture, represent, and analyze three-dimensional structures is crucial. The advancements in 3D and 4D generation technologies have transformed gaming, augmented reality (AR), and virtual reality (VR), offering unprecedented immersion and interaction. Bridging the gap between reality and virtuality, 3D modeling enables realistic simulations, immersive gaming experiences, and AR overlays. Adding the temporal dimension enhances these experiences, enabling lifelike animations, object tracking, and understanding complex spatiotemporal relationships, reshaping digital interactions in entertainment, education, and beyond.
 
-    <p>Traditionally, 3D generation involved directly manipulating 3D data, evolving alongside advancements in 2D generation techniques. Recent breakthroughs in 2D diffusion models have improved 3D generation, leveraging large-scale image datasets to enhance tasks. Methods using 2D priors from diffusion models have emerged, from inpainting-based approaches to techniques like Score Distillation Sampling (SDS), improving the quality and diversity of 3D asset generation. However, scalability and realism limitations remain due to biases in 2D priors and the lack of comprehensive 3D data.
+    <p>Traditionally, 3D generation involved directly manipulating 3D data and attempt to recover 3D details using 2D data.
+      Recent breakthroughs in 2D diffusion models have significantly improved 3D generation.
+      Methods using 2D priors from diffusion models have emerged, enhancing the quality and diversity of 3D asset generation.
+      These methods range from inpainting-based approaches and optimization-based techniques like Score Distillation Sampling (SDS), to recent feed-forward generation using multi-view images as an auxiliary medium.
 
-    <p>Challenges persist in extending 3D asset generation to scenes and mitigating biases in 2D priors for realistic synthesis in real-world settings. Addressing these issues, our tutorial delves into 3D scene generation, exploring techniques for diverse scene scales, compositionality, and realism. We also cover recent advancements in 3D and 4D reconstruction from images and videos, crucial for applications like augmented reality. Attendees will gain insights into various paradigms of 3D/4D generation, from training on 3D data to leveraging 2D diffusion model knowledge, resulting in a comprehensive understanding of contemporary 3D modeling approaches.
+    <p>On the other hand, challenges persist in extending 3D asset generation to scenes and mitigating biases in 2D priors for realistic synthesis in real-world settings. Addressing these issues, our tutorial delves into 3D scene generation, exploring techniques for diverse scene scales, compositionality, and realism.
+       Finally, we also cover recent advancements in 4D generation using images and videos models as priors, crucial for applications like augmented reality.
+       Attendees will gain insights into various paradigms of 3D/4D generation, from training on 3D data to leveraging 2D diffusion model knowledge, resulting in a comprehensive understanding of contemporary 3D modeling approaches.
 
     <p>In conclusion, our tutorial provides a comprehensive exploration of 3D/4D generation and modeling, covering fundamental techniques to cutting-edge advancements. By navigating scene-level generation intricacies and leveraging 2D priors for enhanced realism, attendees will emerge equipped with a nuanced understanding of the evolving landscape of 3D modeling in the metaverse era.
 
@@ -127,8 +132,9 @@
 
     <tr>
       <td width="70%">
-        <p style="font-size:20px"> <b>3D Generation with 3D data</b> </a> </p>Introducing conventional ways of
-         training 3D generation models using 3D data, including VAEs, GANs, transformers, and diffusion models.
+        <p style="font-size:20px"> <b>3D Generation w/o Large-Scale 3D Priors</b> </a> </p>
+         Introducing conventional ways of
+         training 3D generation models using 2D and 3D data without large-scale image and video diffusion models.
       </td>
       <td width="20%"><em>Hsin-Ying Lee</em></td>
       <td width="10%"><b>08:40 - <br /> 09:10</b></td>
@@ -170,8 +176,8 @@
 
     <tr>
       <td>
-        <p style="font-size:20px"> <b>3D and 4D Reconstruction </b>
-        </p> Introducing 3D and 4D reconstruction from images and videos, and recent works leveraging generative priors including 2D diffusion models.
+        <p style="font-size:20px"> <b>4D Generation and Reconstruction </b>
+        </p> Introducing recent advancements on 4D generation as well as generation vis reconstruction.
 
 
       </td>
