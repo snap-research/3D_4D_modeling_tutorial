@@ -212,3 +212,14 @@ table.program {
 .program tr {
 	border: 1px solid gray;
 }
+
+.media-container {
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 20px;
+}
+
+.media-item {
+  width: 30%;
+  height: auto;
+}
